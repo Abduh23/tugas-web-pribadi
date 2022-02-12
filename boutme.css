@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: green;
+}
+.linkbalik {
+    color: white;
+    font-size: large;
+}
+.isime {
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    height: 255px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background: rgb(241, 238, 6);
+    border-radius: 50px;
+}
+.isime p {
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+}
+.venti {
+    text-align: center;
+}
+.venti img:hover {
+    content: url(venti-genshin-impact.gif);
+}
+.venti img {
+    margin-top: 50px;
+    width: 220px;
+    border-radius: 100%;
+}
+.icons {
+    text-align: center;
+    margin-top: 450px;
+}
+.icons a {
+    margin: 12px 12px 12px 12px;
+    font-size: x-large;
+}
+.icons a:hover{
+    font-weight: bold;
+    font-size: xx-large;
+    color: blue;
+}
